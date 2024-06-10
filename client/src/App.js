@@ -9,6 +9,8 @@ import LifecycleEx7 from './R007_LifecycleEx';
 import LifecycleEx8 from './R008_LifecycleEx';
 import Es6 from './R009_Es6';
 import Variable from './R010_Variable'
+import SpreadOperator from './R011_SpreadOperator'
+import ClassPrototype from './R012_Class&Prototype'
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
       <LifecycleEx8></LifecycleEx8>
       <Es6/>
       <Variable/>
+      <SpreadOperator/>
+      <ClassPrototype></ClassPrototype>
     </div>
   );
 }

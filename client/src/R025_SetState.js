@@ -16,10 +16,10 @@ class R025_SetState extends Component {
     render() {
         return (
             <div style={{padding: "0px"}}>
-                <buttoon onClick={(e) => this.StateChange('direct', e)}>
-                    state 직접변경</buttoon>
-                <buttoon onClick={(e) => this.StateChange('setstate', e)}>
-                    setState로 변경 </buttoon><br/>
+                <button onClick={(e) => this.StateChange('direct', e)}>
+                    state 직접변경</button>
+                <button onClick={(e) => this.StateChange('setstate', e)}>
+                    setState로 변경 </button><br/>
                     [state 변경하기] StateString :{this.state.StateString}
             </div>
         )

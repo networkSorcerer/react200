@@ -24,6 +24,11 @@ import PropsDefault from './R022_PropsDefault';
 import PropsNode from './R023_PropsNode.js';
 import ReactState from './R024_ReactState.js';
 import SetState from './R025_SetState.js';
+import ForceUpdate from './R026_ForceUpdate.js';
+import ComponentClass from './R027_ComponentClass.js';
+import  PureComponentClass  from './R028_PureComponentClass.js';
+import ShallowEqual from './R029_ShallowEqua.js';
+import FunctionComponent from './R030_FunctionComponent'
 function App() {
   return (
     <div className="App">
@@ -64,6 +69,11 @@ function App() {
       </PropsNode>
       <ReactState reactString={"react"}/>
       <SetState/>
+      <ForceUpdate/>
+      <ComponentClass/>
+      <PureComponentClass/>
+      <ShallowEqual/>
+      <FunctionComponent contents="[THIS IS FUNCTIONCOMPONENT]"/>
     </div>
   );
 }

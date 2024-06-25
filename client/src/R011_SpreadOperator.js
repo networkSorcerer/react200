@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+//전개 연산자 사용하기
 class R011_SpreadOperator extends Component {
 
     constructor(props) {

@@ -8,10 +8,12 @@ import LifecycleEx2 from './R006_LifecycleEx';
 import LifecycleEx7 from './R007_LifecycleEx';
 import LifecycleEx8 from './R008_LifecycleEx';
 import Es6 from './R009_Es6';
-import Variable from './R010_Variable'
-import SpreadOperator from './R011_SpreadOperator'
-import ClassPrototype from './R012_Class&Prototype'
-
+import Variable from './R010_Variable';
+import SpreadOperator from './R011_SpreadOperator';
+import ClassPrototype from './R012_Class&Prototype';
+import ArrowFunc from './R013_ArrowFunction';
+import ForEach from './R014_ForEach';
+import Map from './R015_Map';
 function App() {
   return (
     <div className="App">
@@ -29,6 +31,9 @@ function App() {
       <Variable/>
       <SpreadOperator/>
       <ClassPrototype></ClassPrototype>
+      <ArrowFunc/>
+      <ForEach/>
+      <Map/>
     </div>
   );
 }

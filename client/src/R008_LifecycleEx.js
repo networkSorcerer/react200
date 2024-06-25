@@ -33,3 +33,4 @@ class R008_LifecycleEx extends Component {
 }
 
 export default R008_LifecycleEx;
+//componentDidMount () 함수는 ‘생성’ 단계의 생명주기 함수 중 가장 마지막으로 실행된다

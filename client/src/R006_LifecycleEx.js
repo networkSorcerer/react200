@@ -21,3 +21,7 @@ class R006_LifecycleEx extends Component {
 }
 
 export default R006_LifecycleEx;
+
+//getDerivedStateFromProps(props? state) 함수는 constructor^) 함수 다음으로 실행
+//된다. 컴포넌트가 새로운 props를 받게 됐을 때 state를 변경해준다. App.에서 전달한 prop_
+//value라는 변수를 props.prop_value로 접근해 값을 가져올 수 있다.

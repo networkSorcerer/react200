@@ -34,7 +34,12 @@ import Fragment from './R032_Fragments.js';
 import ReturnMap from './R033_ReturnMap';
 import ReactstrapAlerts from './R034_ReactstrapAlerts';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import ReactstrapBadges from './R035_ReactstrapBadges.js';
+import ReactstrapBreadcrumbs from './R036_ReactstrapBreadcrumbs.js';
+import ReactstrapDropdown from './R037_ReactstrapDropdown.js';
+import ReactstrapButtonGroup from './R038_ReactstapButtonGroup.js';
+import ReactstrapBottons from './R039_ReactstrapBottons.js';
+import ReactstrapCard from './R040_ReactstrapCard.js';
 function App() {
   return (
     <div className="App">
@@ -84,6 +89,12 @@ function App() {
       <Fragment/>
       <ReturnMap/>
       <ReactstrapAlerts/>
+      <ReactstrapBadges/>
+      <ReactstrapBreadcrumbs/>
+      <ReactstrapDropdown/>
+      <ReactstrapButtonGroup/>
+      <ReactstrapBottons/>
+      <ReactstrapCard/>
     </div>
   );
 }

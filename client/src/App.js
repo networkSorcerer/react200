@@ -28,7 +28,13 @@ import ForceUpdate from './R026_ForceUpdate.js';
 import ComponentClass from './R027_ComponentClass.js';
 import  PureComponentClass  from './R028_PureComponentClass.js';
 import ShallowEqual from './R029_ShallowEqua.js';
-import FunctionComponent from './R030_FunctionComponent'
+import FunctionComponent from './R30_FunctionComponent';
+import ReactHook from './R031_ReactHook';
+import Fragment from './R032_Fragments.js';
+import ReturnMap from './R033_ReturnMap';
+import ReactstrapAlerts from './R034_ReactstrapAlerts';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   return (
     <div className="App">
@@ -74,6 +80,10 @@ function App() {
       <PureComponentClass/>
       <ShallowEqual/>
       <FunctionComponent contents="[THIS IS FUNCTIONCOMPONENT]"/>
+      <ReactHook/>
+      <Fragment/>
+      <ReturnMap/>
+      <ReactstrapAlerts/>
     </div>
   );
 }

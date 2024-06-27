@@ -40,6 +40,16 @@ import ReactstrapDropdown from './R037_ReactstrapDropdown.js';
 import ReactstrapButtonGroup from './R038_ReactstapButtonGroup.js';
 import ReactstrapBottons from './R039_ReactstrapBottons.js';
 import ReactstrapCard from './R040_ReactstrapCard.js';
+import ReactstrapCarousel from './R041_ReactstrapCarousel.js';
+import ReactstrapCollapse from './R042_ReactstrapCollapse.js';
+import ReactstrapFade from './R043_ReactstrapFade';
+import ReactstrapForm from './R044_ReactstrapForm';
+//import InputGroup from './R045_ReactstrapInputGroup';
+//import Jumbotron from './R046_ReactstrapJumbotron';
+import ListGroup from './R047_ReactstrapListGroup';
+import Modal from './R048_ReactstrapModal'
+import Navbar from './R049_ReactstrapNavbar';
+import Pagination from './R050_ReactstrapPagination';
 function App() {
   return (
     <div className="App">
@@ -95,6 +105,16 @@ function App() {
       <ReactstrapButtonGroup/>
       <ReactstrapBottons/>
       <ReactstrapCard/>
+      <ReactstrapCarousel/>
+      <ReactstrapCollapse/>
+      <ReactstrapFade/>
+      <ReactstrapForm/>
+       {/* <InputGroup/> */}
+        {/* <Jumbotron/> */}
+        <ListGroup/>
+        <Modal/>
+        <Navbar/>
+        <Pagination/>
     </div>
   );
 }

@@ -50,6 +50,16 @@ import ListGroup from './R047_ReactstrapListGroup';
 import Modal from './R048_ReactstrapModal'
 import Navbar from './R049_ReactstrapNavbar';
 import Pagination from './R050_ReactstrapPagination';
+import Popover from './R051_ReactstrapPopover';
+import Progress from './R052_ReactstrapPrograss';
+import ReactstrapSpinner from './R053_ReactstrapSpinner';
+import ReactstrapTable from './R054_ReactstrapTable';
+import ReactstrapTab from './R055_ReactstrapTab';
+import Sweetalert2Basic from './R056_Sweetalert2Basic';
+import Sweetalert2Position from'./R057_Sweetalert2Position';
+import Sweetalert2Confirm from './R058_Sweetalert2Confirm';
+import FetchGet from './R059_FetchGet';
+import FechPost from './R60_FetchPost';
 function App() {
   return (
     <div className="App">
@@ -115,6 +125,16 @@ function App() {
         <Modal/>
         <Navbar/>
         <Pagination/>
+        <Popover/>
+        <Progress/>
+        <ReactstrapSpinner/>
+        <ReactstrapTable/>
+        <ReactstrapTab/>
+      <Sweetalert2Basic/>
+      <Sweetalert2Position/>
+      <Sweetalert2Confirm/>
+      <FetchGet/>
+      <FechPost/>
     </div>
   );
 }

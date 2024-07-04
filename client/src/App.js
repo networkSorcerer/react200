@@ -60,12 +60,27 @@ import Sweetalert2Position from'./R057_Sweetalert2Position';
 import Sweetalert2Confirm from './R058_Sweetalert2Confirm';
 import FetchGet from './R059_FetchGet';
 import FechPost from './R60_FetchPost';
+import AxiosGet from './R061_AxiosGet';
+import AxiosPost from './R062_AxiosPost.js';
+import CallBackFunc from './R063_CallbackFunc.js';
+import Promise from './R064_Promise.js';
+import R065_PromiseCatch from './R065_PromiseCatch.js';
+import ReactonClick from './R066_onClikc.js';
+import R067_onChange from './R067_onChange.js';
+import R068_onMouseMove from './R068_onMouseMove';
+import R069_onMouseOver from './R069_onMouseOver';
+import R070_onMouseOut from './R070_onMouseOut';
 function App() {
   return (
     <div className="App">
       <h1>Start React 200!</h1>
       <p>HTML 적용하기</p> 
-      <ImportComponent></ImportComponent>
+      <R070_onMouseOut/>
+      {/* <R069_onMouseOver/> */}
+      {/* <R067_onChange/>
+      <ReactonClick/>
+      <R068_onMouseMove/> */}
+      {/* <ImportComponent></ImportComponent>
       <LifecycleEx></LifecycleEx>
       <LifecycleEx1></LifecycleEx1>
       <LifecycleEx2
@@ -77,7 +92,7 @@ function App() {
       <Variable/>
       <SpreadOperator/>
       <ClassPrototype></ClassPrototype>
-      {/* <ArrowFunc/> */}
+       <ArrowFunc/> 
       <ForEach/>
       <Map/>
       <Jquery/>
@@ -119,8 +134,8 @@ function App() {
       <ReactstrapCollapse/>
       <ReactstrapFade/>
       <ReactstrapForm/>
-       {/* <InputGroup/> */}
-        {/* <Jumbotron/> */}
+        <InputGroup/> 
+         <Jumbotron/> 
         <ListGroup/>
         <Modal/>
         <Navbar/>
@@ -135,6 +150,12 @@ function App() {
       <Sweetalert2Confirm/>
       <FetchGet/>
       <FechPost/>
+      <AxiosGet/>
+      <AxiosPost/>
+      <CallBackFunc/>
+      <Promise/> 
+      <R065_PromiseCatch/>*/}
+      
     </div>
   );
 }

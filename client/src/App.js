@@ -70,12 +70,20 @@ import R067_onChange from './R067_onChange.js';
 import R068_onMouseMove from './R068_onMouseMove';
 import R069_onMouseOver from './R069_onMouseOver';
 import R070_onMouseOut from './R070_onMouseOut';
+import R071_Onkey from './R071_Onkey.js';
+import R072_onSubmit from './R072_onSubmit.js';
+import R073_ReactRef from './R073_ReactRef.js';
+import R075_ReactCurrying from './R075_ReactCurrying.js';
 function App() {
   return (
     <div className="App">
       <h1>Start React 200!</h1>
-      <p>HTML 적용하기</p> 
+      <p>HTML 적용하기</p>
+      <R072_onSubmit/> 
       <R070_onMouseOut/>
+      <R071_Onkey/>
+      <R073_ReactRef/>
+      <R075_ReactCurrying/>
       {/* <R069_onMouseOver/> */}
       {/* <R067_onChange/>
       <ReactonClick/>

@@ -73,7 +73,8 @@ import R070_onMouseOut from './R070_onMouseOut';
 import R071_Onkey from './R071_Onkey.js';
 import R072_onSubmit from './R072_onSubmit.js';
 import R073_ReactRef from './R073_ReactRef.js';
-import R075_ReactCurrying from './R075_ReactCurrying.js';
+import R074_ReactCurrying from './R074_ReactCurrying.js';
+import R075_ReactHoc from './R075_ReactHoc.js';
 function App() {
   return (
     <div className="App">
@@ -83,7 +84,8 @@ function App() {
       <R070_onMouseOut/>
       <R071_Onkey/>
       <R073_ReactRef/>
-      <R075_ReactCurrying/>
+      <R074_ReactCurrying/>
+      <R075_ReactHoc name ='React200'/>
       {/* <R069_onMouseOver/> */}
       {/* <R067_onChange/>
       <ReactonClick/>
